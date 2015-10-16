@@ -207,7 +207,7 @@ let s:delimiterMap = {
     \ 'java': { 'left': '//', 'leftAlt': '/*', 'rightAlt': '*/' },
     \ 'javacc': { 'left': '//', 'leftAlt': '/*', 'rightAlt': '*/' },
     \ 'javascript': { 'left': '//', 'leftAlt': '/*', 'rightAlt': '*/' },
-    \ 'javascript.jquery': { 'left': '//', 'leftAlt': '/*', 'rightAlt': '*/' },
+    \ 'javascript.jquery': { 'left': '// ', 'leftAlt': '/*', 'rightAlt': '*/' },
     \ 'jess': { 'left': ';' },
     \ 'jgraph': { 'left': '(*', 'right': '*)' },
     \ 'jproperties': { 'left': '#' },
